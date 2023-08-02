@@ -8,12 +8,12 @@
     <title>Fisheye</title>
   </head>
   <body>
-    <header>
-        <img src="assets/images/logo.png" class="logo" alt="fisheye logo"/>
+    <header aria-label="header" role="header">
+        <img src="assets/images/logo.png" class="logo" alt="fisheye logo" role="fisheye-logo"/>
         <h1>Nos photographes</h1>
     </header>
-    <main id="main">
-        <div class="photographer_section"></div>
+    <main id="main" aria-label="main" role="main-section">
+        <article class="photographer_section" role="photographer-info" aria-label="photgrapher-card"></article>
     </main>
     <script src="scripts/templates/photographer.js"></script>
     <script src="scripts/pages/index.js"></script>
