@@ -1,5 +1,33 @@
-#contact_modal {
-    display: none;
+body {
+    position: relative;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #312E2E;
+    font-size: 36px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+    margin-bottom: 26px;
+    margin-top: 2rem;
+}
+
+form input {
+    width: 100%;
+    height: 68px;
+    border: none;
+    border-radius: 5px;
 }
 
 .photograph-header {
@@ -31,6 +59,10 @@
     justify-content: space-between;
     padding: 35px;
     margin: auto;
+    /* rajout maxime */
+    position: absolute;
+    top: 20%;
+    left: 25%;
 }
 
 .modal header {
@@ -48,29 +80,6 @@
     text-align: center;
 }
 
-form {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-form label {
-    color: #312E2E;
-    font-size: 36px;
-}
-
-form div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: self-start;
-    margin-bottom: 26px;
-}
-
-form input {
-    width: 100%;
-    height: 68px;
-    border: none;
-    border-radius: 5px;
+#contact_modal {
+    display: none;
 }
