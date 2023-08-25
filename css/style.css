@@ -19,6 +19,28 @@ h1 {
     margin-right: 100px;
 }
 
+/* library */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.photographer-portrait {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+/* library */
+
 .logo {
     height: 50px;
     margin-left: 100px;
