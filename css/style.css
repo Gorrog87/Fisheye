@@ -48,7 +48,7 @@ header {
 }
 
 h1 {
-    color: #901C1C;
+    color: var(--primary-red);
     margin-right: 100px;
 }
 
@@ -74,7 +74,7 @@ h1 {
 }
 
 .photographer_section article h2 {
-    color: #D3573C;
+    color: var(--primary-orange);
     font-size: 36px;
 }
 
