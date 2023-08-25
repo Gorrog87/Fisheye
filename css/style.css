@@ -4,8 +4,8 @@
     --primary-red: #901C1C;
     --primary-orange: #D3573C; 
     /* ------------------------------- */
-    --secondary-red: #901C1C;
-    --secondary-orange: #D3573C;
+    /* --secondary-red: #901C1C;
+    --secondary-orange: #D3573C; */
     --secondary-grey: #525252 #FAFAFA;
     /* -------------------------------- */
     --dm: 'DM Sans', sans-serif;
@@ -31,6 +31,26 @@
     object-fit: cover;
 }
 
+.dm {
+    font-family: var(--dm);
+}
+
+.red {
+    color: var(--primary-red);
+}
+
+.orange {
+    color: var(--primary-orange);
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* ------------------- library -------------------- */
 
 body {
@@ -50,6 +70,10 @@ header {
 h1 {
     color: var(--primary-red);
     margin-right: 100px;
+}
+
+a {
+    cursor: pointer;
 }
 
 
