@@ -14,8 +14,7 @@ function photographerTemplate(data) {
     const pTagline = document.createElement("p");
     const pPrice = document.createElement("p");
     const locationDiv = document.createElement("div");
-    locationDiv.classList.add("flex");
-    locationDiv.classList.add("gap-1");
+    locationDiv.classList.add("flex", "gap-1");
     pPrice.textContent = `${price}€/jour`;
     pTagline.textContent = tagline;
     h2.textContent = name;

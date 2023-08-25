@@ -1,25 +1,17 @@
 @import url("photographer.css");
 
-body {
-    font-family: "DM Sans", sans-serif;
-    margin: 0;
+:root{
+    --primary-red: #901C1C;
+    --primary-orange: #D3573C; 
+    /* ------------------------------- */
+    --secondary-red: #901C1C;
+    --secondary-orange: #D3573C;
+    --secondary-grey: #525252 #FAFAFA;
+    /* -------------------------------- */
+    --dm: 'DM Sans', sans-serif;
 }
 
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-}
-
-h1 {
-    color: #901C1C;
-    margin-right: 100px;
-}
-
-/* library */
+/* ------------------- library -------------------- */
 
 .flex {
     display: flex;
@@ -39,7 +31,27 @@ h1 {
     object-fit: cover;
 }
 
-/* library */
+/* ------------------- library -------------------- */
+
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+h1 {
+    color: #901C1C;
+    margin-right: 100px;
+}
+
 
 .logo {
     height: 50px;
