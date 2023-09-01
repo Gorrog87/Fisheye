@@ -29,7 +29,7 @@ async function displayData(photographer) {
 
 async function init() {
     // Récupère les datas des photographes
-    const  result  = await getPhotographer(82);
+    const  result  = await getPhotographer();
     console.log(result);
 }
 init();

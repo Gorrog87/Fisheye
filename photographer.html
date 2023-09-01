@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <title>Fisheye - photographe </title>
   </head>
-  <body>
+  <body id="body">
     <header aria-label="primary-header">
       <img src="assets/images/logo.png" class="logo" alt="fisheye-logo"/>
     </header>
@@ -20,18 +20,18 @@
 			<div class="modal">
 				<header aria-label="secondary-header">
           <h2>Contactez-moi</h2>
-          <img src="assets/icons/close.svg" role="image" aria-label="close-image" onclick="closeModal()" />
+          <img src="assets/icons/close.svg" aria-label="close-modal-image" onclick="closeModal()" />
         </header>
 				<form aria-label="photgrapher-contact-form">
 					<div>
-						<label role="surname-label" for="prénom" placeholder="Marie" type="text">Prénom</label>
-						<input />
-						<label role="name-label" for="nom" placeholder="Dupont" type="text">Nom</label>
-						<input />
-						<label role="email-label" for="email" placeholder="exemple@exemple.fr" type="text">Email</label>
-						<input />
-						<label role="message-label" for="email" placeholder="exemple@exemple.fr" type="text">Votre message</label>
-						<input />
+						<label role="firstname-label" id="prénom" for="prénom" name="prénom" type="text">Prénom</label>
+						<input placeholder="Marie"/>
+						<label role="name-label" id="nom" for="nom" name="nom" type="text">Nom</label>
+						<input placeholder="Dupont"/>
+						<label role="email-label" id="email" for="email" type="text">Email</label>
+						<input placeholder="exemple@exemple.fr"/>
+						<label role="message-label" id="email" for="email" type="text">Votre message</label>
+						<input placeholder="Ecrivez votre message ici"/>
 					</div>
           <button class="contact_button" aria-label="send-button">Envoyer</button>
 				</form>

@@ -82,4 +82,9 @@ form input {
 
 #contact_modal {
     display: none;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    right: 0;
+    height: 100vh;
 }
