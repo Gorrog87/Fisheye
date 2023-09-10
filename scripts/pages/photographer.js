@@ -29,7 +29,12 @@ async function displayData(photographer) {
 
 async function init() {
     // Récupère les datas des photographes
-    const  result  = await getPhotographer();
+    let params = new URL(document.location).searchParams;
+    let id = parseInt(params.get("id")); 
+    // let photographId = parseInt(params.get("age"));
+    console.log(id);
+
+    const  result  = await getPhotographer(id);
     console.log(result);
 }
 init();

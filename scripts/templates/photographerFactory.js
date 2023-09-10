@@ -3,13 +3,11 @@ function photographerTemplate(data) {
 
   const picture = `assets/photographers/photographersId/${portrait}`;
 
-  const photographerUrl = new URL(document.location);
-  photographerUrl.searchParams.set("photographId", id);
-  // console.log(photographerUrl);
+  const photographPage = new URL(document.location + "/photographer.html")
+  photographPage.searchParams.set("id", id);
+  console.log(photographPage);
 
-  const photographUrl = new URL(document.location);
-  photographUrl.searchParams.get("id");
-  console.log(photographUrl);
+
 
   function getUserCardDOM() {
     const article = document.createElement("article");
@@ -33,7 +31,7 @@ function photographerTemplate(data) {
     const link = document.createElement("a");
     link.appendChild(img);
     link.appendChild(h2);
-    link.setAttribute("href", photographUrl);
+    link.setAttribute("href", photographPage);
     locationDiv.appendChild(pCity);
     locationDiv.appendChild(pCountry);
     article.appendChild(link);
