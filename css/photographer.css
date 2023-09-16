@@ -34,6 +34,7 @@ form input {
     background-color: #FAFAFA;
     height: 300px;
     margin: 0 100px;
+    max-width: 600px;
 }
 
 .contact_button {
